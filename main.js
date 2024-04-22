@@ -19,5 +19,26 @@ if (casualPC > casualUser) {
 } else {
 
     console.log (`Parità`)
-}
+};
+
+
+let Email = prompt ("Dammi la tua Email");
+
+const lista = [
+    "Francesco.ferdinanfdo@gmail.com",
+    "Luca.lorenzo@gmail.com",
+    "Michele.@gmail.com",
+    "Filippoortigia@gmail.com",
+    "Giuseppe@gmail.com"
+];
+
+if (lista.includes(Email)) {
+    
+
+    console.log (`Accesso Valido`);
+       
+} else {
+
+    console.log (`Accesso Negato`);
+};
 
