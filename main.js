@@ -32,13 +32,15 @@ const lista = [
     "Giuseppe@gmail.com"
 ];
 
+let risultato = document.getElementById(`title`);
+
 if (lista.includes(Email)) {
     
-
+    risultato.innerHTML = (`Accesso Valido`);
     console.log (`Accesso Valido`);
        
 } else {
-
+    risultato.innerHTML = (`Accesso Negato`);
     console.log (`Accesso Negato`);
 };
 
